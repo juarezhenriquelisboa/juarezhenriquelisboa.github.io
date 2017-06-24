@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+	 @import url('https://fonts.googleapis.com/css?family=Judson');
+
+body{
+	background-color: black;
+    font-family: 'Judson', serif;
+}
+article{
+	border-style: solid;
+	border-color: gray;
+	width: 700px;
+	margin: auto;
+	height: 700px;
+	font-size: 120%
+}
+
+aside{
+	white-space: pre-line;
+	text-align: left;
+	background-color: black;
+	color: limeGreen;
+	height: 100%;
+	text-align: center;
+}
+a{
+	color: lime;
+	font-size: 100%;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	font-size: 100%;
+	font-weight: 400;
+  color: lime
+}
+
+nav{
+	list-style-type: none;
+	margin-left: 17%;
+	padding-top: 15;
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav a{
+	color: black;
+	background-color: lime;
+	padding: 5;
+}
