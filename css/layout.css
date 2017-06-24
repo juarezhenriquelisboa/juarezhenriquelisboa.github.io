@@ -71,7 +71,3 @@ body{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 130%
 }
-@media screen and (max-width: 700px) {
-	article{display: none}
-	aside{display: inline}
-}
