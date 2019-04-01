@@ -1,4 +1,5 @@
-Site do estudante Juarez Henrique Lisboa.
+# Site do estudante Juarez Henrique Lisboa.
 
-Informações, Portfólio e Currículo Virtual.
+* Informações;
+* Portfólio.
 
