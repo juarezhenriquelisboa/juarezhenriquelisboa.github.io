@@ -1,73 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700');
-
-article{
-	width: 650px;
-	margin: auto;
-	height: 700px;
-}
-
-.text{
-	white-space: pre-line;
-	text-align: center;
-	background-color: white;
-	color: black;
-	height: 100%;
-	display: block;
-}
-.square1{
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-color: lime;
-	width: 33%;
-	height: 30%;
-	float: left;
-}
-.square2{
-	border-bottom-style: solid;
-	border-color: lime;
-	width: 33%;
-	height: 30%;
-	float: right;
-}
-.square3{
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-color: lime;
-	width: 33%;
-	height: 30%;
-	float: right;
-}
-
-.circle {
-	border-radius: 50%;
-	border-color: white;
-	margin: auto;
-	margin-top: 10%;
-	width: 80%;
-	height: 80%;
-	background-color: green;
-	text-align: center;
-	line-height: 800%;
-}
-.circlew{
-	border-radius: 50%;
-	border-color: white;
-	margin: auto;
-	margin-top: 10%;
-	width: 90%;
-	height: 90%;
-	background-color: black;
-}
-
-a{
-	color: black;
-	font-size: 100%;
-	text-decoration: none;
-	font-weight: 450;
+ @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+html{
+    height: 100%;
 }
 
 body{
-	background-color: black;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 130%
+    height: 100%;
+	white-space: pre-line;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+aside{
+	width: 30%;
+    height: 95%;
+	float: left;
+	background-color: #000099;
+	color: white;
+	text-align: center;
+}
+
+article{
+	width: 70%;
+    height: 100%;
+	float: right;
+	text-align: center;
+}
+
+a{
+	color: #000099;
+	text-decoration: none;
+
+}
+
+a::after{
+	color: #000099;
+	text-decoration: none;
+}
+
+section{
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 700px) {
+    aside{float: none; height: auto; width: 100%}
+    article{float: none;width: 100%}
 }
