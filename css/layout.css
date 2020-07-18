@@ -9,6 +9,11 @@ body{
 	font-family: 'ZCOOL XiaoWei', serif;
 }
 
+.aside_image {
+
+    width: 70%;
+}    
+
 aside{
 	width: 30%;
     height: 95%;
