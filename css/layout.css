@@ -13,7 +13,7 @@ aside{
 	width: 30%;
     height: 95%;
 	float: left;
-	background-color: #000099;
+	background-color: #FD5F00;
 	color: white;
 	text-align: center;
 }
@@ -26,13 +26,13 @@ article{
 }
 
 a{
-	color: #000099;
+	color: #FD5F00;
 	text-decoration: none;
 
 }
 
 a::after{
-	color: #000099;
+	color: #FD5F00;
 	text-decoration: none;
 }
 
